@@ -16,5 +16,5 @@ def create_app():
     @app.route("/submit/", methods=("POST",))
     def submit():
         flash("Form submitted")
-        return redirect(url_for("index"))
+        return redirect(url_for"index"))
     return app
